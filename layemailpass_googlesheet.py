@@ -2,6 +2,7 @@
 import gspread
 import pandas as pd
 # nhớ lấy api của G.s vào đây trước mới làm được
+credentials = {...}
 gc = gspread.service_account_from_dict(credentials)
 
 # Mở bảng tính Google Sheets
